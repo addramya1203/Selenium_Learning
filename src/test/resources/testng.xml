@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+
+
+<test name="TestA" allow-return-values="true">
+    <classes>
+        <class name="com.selenium.ddf.testcases.DummytestA" ></class>  
+    </classes>
+</test>
+
+<test name="TestB" allow-return-values="true">
+    <classes>
+        <class name="com.selenium.ddf.testcases.DummyTestB" ></class>  
+    </classes>
+</test>
+
+<test name="TestC" allow-return-values="true">
+    <classes>
+        <class name="com.selenium.ddf.testcases.DummyTestC" ></class>  
+    </classes>
+</test>
+
+
+</suite>
